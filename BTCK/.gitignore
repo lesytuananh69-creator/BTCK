@@ -1,0 +1,18 @@
+@"
+# Bỏ qua thư mục VS Code
+../Microsoft VS Code/
+
+# Thư mục Python tự sinh
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Thư mục môi trường ảo
+venv/
+.env
+
+# File build/output
+*.exe
+*.dll
+"@ | Out-File -FilePath .gitignore -Encoding UTF8 -Force
